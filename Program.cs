@@ -8,9 +8,13 @@ namespace RegexPatternMatchingDemo
         {
             {
                 Pattern pattern = new Pattern();
-                //bool result=pattern.validatePinCode("abc-100-100@.nt.in");
-                //bool result = pattern.validatePinCode("400 088");
-                bool result = pattern.validatePinCode("841 423");
+                //bool result=pattern.validatePinCode("841423");
+               // bool result = pattern.validateName("Vijay Krishna");
+               bool result = pattern.validateEmail("abc@1.com");
+                // bool result = pattern.validatePhone("91 8507047235");
+              
+                //bool result = pattern.validatePassword("Hellohello@1");
+
                 Console.WriteLine(result);
                 Console.ReadKey();
             }
